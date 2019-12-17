@@ -7,6 +7,7 @@ target 'VoiceTubeHomework' do
 
   # Pods for VoiceTubeHomework
   pod 'Alamofire', '~> 5.0.0-rc.3'
+  pod 'RealmSwift'
 
   target 'VoiceTubeHomeworkTests' do
     inherit! :search_paths
