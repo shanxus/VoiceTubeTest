@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C648876B6A101719B47D3E0 /* Pods_VoiceTubeHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62247710A38FE615E19F23F /* Pods_VoiceTubeHomework.framework */; };
 		3DA6048B23A91B1E00A6CEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6048A23A91B1E00A6CEAA /* AppDelegate.swift */; };
 		3DA6048D23A91B1E00A6CEAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6048C23A91B1E00A6CEAA /* SceneDelegate.swift */; };
 		3DA6049423A91B1E00A6CEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6049323A91B1E00A6CEAA /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		3DA604AF23A91CD600A6CEAA /* VideoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA604AE23A91CD600A6CEAA /* VideoListTableViewCell.swift */; };
 		3DA604B123A91DAB00A6CEAA /* InfiniteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA604B023A91DAB00A6CEAA /* InfiniteListViewModel.swift */; };
 		3DA604B323A91E8C00A6CEAA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA604B223A91E8C00A6CEAA /* Video.swift */; };
+		AD76F81A08FA35E74B87A784 /* Pods_VoiceTubeHomeworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7350766E789CCF47F23052D /* Pods_VoiceTubeHomeworkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0098A8F8F7AE7F25B0DD5031 /* Pods-VoiceTubeHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceTubeHomework.debug.xcconfig"; path = "Target Support Files/Pods-VoiceTubeHomework/Pods-VoiceTubeHomework.debug.xcconfig"; sourceTree = "<group>"; };
 		3DA6048723A91B1E00A6CEAA /* VoiceTubeHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceTubeHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA6048A23A91B1E00A6CEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DA6048C23A91B1E00A6CEAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +45,11 @@
 		3DA604AE23A91CD600A6CEAA /* VideoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListTableViewCell.swift; sourceTree = "<group>"; };
 		3DA604B023A91DAB00A6CEAA /* InfiniteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteListViewModel.swift; sourceTree = "<group>"; };
 		3DA604B223A91E8C00A6CEAA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		66CC3A7925A898570AE0756C /* Pods-VoiceTubeHomeworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceTubeHomeworkTests.debug.xcconfig"; path = "Target Support Files/Pods-VoiceTubeHomeworkTests/Pods-VoiceTubeHomeworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FFC2D33926710078B8F9DAE /* Pods-VoiceTubeHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceTubeHomework.release.xcconfig"; path = "Target Support Files/Pods-VoiceTubeHomework/Pods-VoiceTubeHomework.release.xcconfig"; sourceTree = "<group>"; };
+		B7350766E789CCF47F23052D /* Pods_VoiceTubeHomeworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceTubeHomeworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62247710A38FE615E19F23F /* Pods_VoiceTubeHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceTubeHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2B8B79940E8ECA3D4B3367 /* Pods-VoiceTubeHomeworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceTubeHomeworkTests.release.xcconfig"; path = "Target Support Files/Pods-VoiceTubeHomeworkTests/Pods-VoiceTubeHomeworkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C648876B6A101719B47D3E0 /* Pods_VoiceTubeHomework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD76F81A08FA35E74B87A784 /* Pods_VoiceTubeHomeworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +78,8 @@
 				3DA6048923A91B1E00A6CEAA /* VoiceTubeHomework */,
 				3DA604A023A91B1F00A6CEAA /* VoiceTubeHomeworkTests */,
 				3DA6048823A91B1E00A6CEAA /* Products */,
+				7F75868606D1794F862F2852 /* Pods */,
+				EDD3F0986BB1569F79FBC6C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +141,27 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		7F75868606D1794F862F2852 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0098A8F8F7AE7F25B0DD5031 /* Pods-VoiceTubeHomework.debug.xcconfig */,
+				7FFC2D33926710078B8F9DAE /* Pods-VoiceTubeHomework.release.xcconfig */,
+				66CC3A7925A898570AE0756C /* Pods-VoiceTubeHomeworkTests.debug.xcconfig */,
+				EF2B8B79940E8ECA3D4B3367 /* Pods-VoiceTubeHomeworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDD3F0986BB1569F79FBC6C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E62247710A38FE615E19F23F /* Pods_VoiceTubeHomework.framework */,
+				B7350766E789CCF47F23052D /* Pods_VoiceTubeHomeworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DA604A623A91B1F00A6CEAA /* Build configuration list for PBXNativeTarget "VoiceTubeHomework" */;
 			buildPhases = (
+				3FFA31041DE622C1A944EA98 /* [CP] Check Pods Manifest.lock */,
 				3DA6048323A91B1E00A6CEAA /* Sources */,
 				3DA6048423A91B1E00A6CEAA /* Frameworks */,
 				3DA6048523A91B1E00A6CEAA /* Resources */,
+				6AF54FD7E3AC9BB6CF7F8E49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DA604A923A91B1F00A6CEAA /* Build configuration list for PBXNativeTarget "VoiceTubeHomeworkTests" */;
 			buildPhases = (
+				E39894D4F7E3FEF28DA0EB93 /* [CP] Check Pods Manifest.lock */,
 				3DA6049923A91B1F00A6CEAA /* Sources */,
 				3DA6049A23A91B1F00A6CEAA /* Frameworks */,
 				3DA6049B23A91B1F00A6CEAA /* Resources */,
@@ -223,6 +259,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FFA31041DE622C1A944EA98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceTubeHomework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF54FD7E3AC9BB6CF7F8E49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceTubeHomework/Pods-VoiceTubeHomework-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceTubeHomework/Pods-VoiceTubeHomework-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceTubeHomework/Pods-VoiceTubeHomework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E39894D4F7E3FEF28DA0EB93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceTubeHomeworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DA6048323A91B1E00A6CEAA /* Sources */ = {
@@ -384,6 +484,7 @@
 		};
 		3DA604A723A91B1F00A6CEAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0098A8F8F7AE7F25B0DD5031 /* Pods-VoiceTubeHomework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -402,6 +503,7 @@
 		};
 		3DA604A823A91B1F00A6CEAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FFC2D33926710078B8F9DAE /* Pods-VoiceTubeHomework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -420,6 +522,7 @@
 		};
 		3DA604AA23A91B1F00A6CEAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CC3A7925A898570AE0756C /* Pods-VoiceTubeHomeworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -442,6 +545,7 @@
 		};
 		3DA604AB23A91B1F00A6CEAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2B8B79940E8ECA3D4B3367 /* Pods-VoiceTubeHomeworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
