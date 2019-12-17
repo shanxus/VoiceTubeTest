@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DA6048B23A91B1E00A6CEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6048A23A91B1E00A6CEAA /* AppDelegate.swift */; };
+		3DA6048D23A91B1E00A6CEAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6048C23A91B1E00A6CEAA /* SceneDelegate.swift */; };
+		3DA6049423A91B1E00A6CEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6049323A91B1E00A6CEAA /* Assets.xcassets */; };
+		3DA6049723A91B1E00A6CEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6049523A91B1E00A6CEAA /* LaunchScreen.storyboard */; };
+		3DA604A223A91B1F00A6CEAA /* VoiceTubeHomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA604A123A91B1F00A6CEAA /* VoiceTubeHomeworkTests.swift */; };
+		3DA604AD23A91B4E00A6CEAA /* InfiniteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA604AC23A91B4E00A6CEAA /* InfiniteListViewController.swift */; };
+		3DA604AF23A91CD600A6CEAA /* VideoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA604AE23A91CD600A6CEAA /* VideoListTableViewCell.swift */; };
+		3DA604B123A91DAB00A6CEAA /* InfiniteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA604B023A91DAB00A6CEAA /* InfiniteListViewModel.swift */; };
+		3DA604B323A91E8C00A6CEAA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA604B223A91E8C00A6CEAA /* Video.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA6049E23A91B1F00A6CEAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA6047F23A91B1E00A6CEAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA6048623A91B1E00A6CEAA;
+			remoteInfo = VoiceTubeHomework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DA6048723A91B1E00A6CEAA /* VoiceTubeHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceTubeHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA6048A23A91B1E00A6CEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DA6048C23A91B1E00A6CEAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DA6049323A91B1E00A6CEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DA6049623A91B1E00A6CEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DA6049823A91B1E00A6CEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA6049D23A91B1F00A6CEAA /* VoiceTubeHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceTubeHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA604A123A91B1F00A6CEAA /* VoiceTubeHomeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceTubeHomeworkTests.swift; sourceTree = "<group>"; };
+		3DA604A323A91B1F00A6CEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA604AC23A91B4E00A6CEAA /* InfiniteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteListViewController.swift; sourceTree = "<group>"; };
+		3DA604AE23A91CD600A6CEAA /* VideoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListTableViewCell.swift; sourceTree = "<group>"; };
+		3DA604B023A91DAB00A6CEAA /* InfiniteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteListViewModel.swift; sourceTree = "<group>"; };
+		3DA604B223A91E8C00A6CEAA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA6048423A91B1E00A6CEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA6049A23A91B1F00A6CEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA6047E23A91B1E00A6CEAA = {
+			isa = PBXGroup;
+			children = (
+				3DA6048923A91B1E00A6CEAA /* VoiceTubeHomework */,
+				3DA604A023A91B1F00A6CEAA /* VoiceTubeHomeworkTests */,
+				3DA6048823A91B1E00A6CEAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA6048823A91B1E00A6CEAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA6048723A91B1E00A6CEAA /* VoiceTubeHomework.app */,
+				3DA6049D23A91B1F00A6CEAA /* VoiceTubeHomeworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA6048923A91B1E00A6CEAA /* VoiceTubeHomework */ = {
+			isa = PBXGroup;
+			children = (
+				3DA604B623A91ECD00A6CEAA /* ViewModel */,
+				3DA604B523A91EBF00A6CEAA /* ViewController */,
+				3DA604B423A91EB900A6CEAA /* Model */,
+				3DA6048A23A91B1E00A6CEAA /* AppDelegate.swift */,
+				3DA6048C23A91B1E00A6CEAA /* SceneDelegate.swift */,
+				3DA6049323A91B1E00A6CEAA /* Assets.xcassets */,
+				3DA6049523A91B1E00A6CEAA /* LaunchScreen.storyboard */,
+				3DA6049823A91B1E00A6CEAA /* Info.plist */,
+			);
+			path = VoiceTubeHomework;
+			sourceTree = "<group>";
+		};
+		3DA604A023A91B1F00A6CEAA /* VoiceTubeHomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DA604A123A91B1F00A6CEAA /* VoiceTubeHomeworkTests.swift */,
+				3DA604A323A91B1F00A6CEAA /* Info.plist */,
+			);
+			path = VoiceTubeHomeworkTests;
+			sourceTree = "<group>";
+		};
+		3DA604B423A91EB900A6CEAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DA604B223A91E8C00A6CEAA /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DA604B523A91EBF00A6CEAA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3DA604AC23A91B4E00A6CEAA /* InfiniteListViewController.swift */,
+				3DA604AE23A91CD600A6CEAA /* VideoListTableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3DA604B623A91ECD00A6CEAA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3DA604B023A91DAB00A6CEAA /* InfiniteListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA6048623A91B1E00A6CEAA /* VoiceTubeHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA604A623A91B1F00A6CEAA /* Build configuration list for PBXNativeTarget "VoiceTubeHomework" */;
+			buildPhases = (
+				3DA6048323A91B1E00A6CEAA /* Sources */,
+				3DA6048423A91B1E00A6CEAA /* Frameworks */,
+				3DA6048523A91B1E00A6CEAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceTubeHomework;
+			productName = VoiceTubeHomework;
+			productReference = 3DA6048723A91B1E00A6CEAA /* VoiceTubeHomework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DA6049C23A91B1F00A6CEAA /* VoiceTubeHomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA604A923A91B1F00A6CEAA /* Build configuration list for PBXNativeTarget "VoiceTubeHomeworkTests" */;
+			buildPhases = (
+				3DA6049923A91B1F00A6CEAA /* Sources */,
+				3DA6049A23A91B1F00A6CEAA /* Frameworks */,
+				3DA6049B23A91B1F00A6CEAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA6049F23A91B1F00A6CEAA /* PBXTargetDependency */,
+			);
+			name = VoiceTubeHomeworkTests;
+			productName = VoiceTubeHomeworkTests;
+			productReference = 3DA6049D23A91B1F00A6CEAA /* VoiceTubeHomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA6047F23A91B1E00A6CEAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = ShanOvO;
+				TargetAttributes = {
+					3DA6048623A91B1E00A6CEAA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					3DA6049C23A91B1F00A6CEAA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 3DA6048623A91B1E00A6CEAA;
+					};
+				};
+			};
+			buildConfigurationList = 3DA6048223A91B1E00A6CEAA /* Build configuration list for PBXProject "VoiceTubeHomework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA6047E23A91B1E00A6CEAA;
+			productRefGroup = 3DA6048823A91B1E00A6CEAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA6048623A91B1E00A6CEAA /* VoiceTubeHomework */,
+				3DA6049C23A91B1F00A6CEAA /* VoiceTubeHomeworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA6048523A91B1E00A6CEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA6049723A91B1E00A6CEAA /* LaunchScreen.storyboard in Resources */,
+				3DA6049423A91B1E00A6CEAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA6049B23A91B1F00A6CEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA6048323A91B1E00A6CEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA604AD23A91B4E00A6CEAA /* InfiniteListViewController.swift in Sources */,
+				3DA604B323A91E8C00A6CEAA /* Video.swift in Sources */,
+				3DA604B123A91DAB00A6CEAA /* InfiniteListViewModel.swift in Sources */,
+				3DA604AF23A91CD600A6CEAA /* VideoListTableViewCell.swift in Sources */,
+				3DA6048B23A91B1E00A6CEAA /* AppDelegate.swift in Sources */,
+				3DA6048D23A91B1E00A6CEAA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA6049923A91B1F00A6CEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA604A223A91B1F00A6CEAA /* VoiceTubeHomeworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DA6049F23A91B1F00A6CEAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA6048623A91B1E00A6CEAA /* VoiceTubeHomework */;
+			targetProxy = 3DA6049E23A91B1F00A6CEAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DA6049523A91B1E00A6CEAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA6049623A91B1E00A6CEAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DA604A423A91B1F00A6CEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DA604A523A91B1F00A6CEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA604A723A91B1F00A6CEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3TUMP2K5W;
+				INFOPLIST_FILE = VoiceTubeHomework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanOvO.VoiceTubeHomework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DA604A823A91B1F00A6CEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3TUMP2K5W;
+				INFOPLIST_FILE = VoiceTubeHomework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanOvO.VoiceTubeHomework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DA604AA23A91B1F00A6CEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3TUMP2K5W;
+				INFOPLIST_FILE = VoiceTubeHomeworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanOvO.VoiceTubeHomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceTubeHomework.app/VoiceTubeHomework";
+			};
+			name = Debug;
+		};
+		3DA604AB23A91B1F00A6CEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3TUMP2K5W;
+				INFOPLIST_FILE = VoiceTubeHomeworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanOvO.VoiceTubeHomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceTubeHomework.app/VoiceTubeHomework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA6048223A91B1E00A6CEAA /* Build configuration list for PBXProject "VoiceTubeHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA604A423A91B1F00A6CEAA /* Debug */,
+				3DA604A523A91B1F00A6CEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA604A623A91B1F00A6CEAA /* Build configuration list for PBXNativeTarget "VoiceTubeHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA604A723A91B1F00A6CEAA /* Debug */,
+				3DA604A823A91B1F00A6CEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA604A923A91B1F00A6CEAA /* Build configuration list for PBXNativeTarget "VoiceTubeHomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA604AA23A91B1F00A6CEAA /* Debug */,
+				3DA604AB23A91B1F00A6CEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA6047F23A91B1E00A6CEAA /* Project object */;
+}
