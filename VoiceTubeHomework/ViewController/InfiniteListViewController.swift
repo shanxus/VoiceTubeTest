@@ -21,6 +21,8 @@ class InfiniteListViewController: UIViewController {
         view.backgroundColor = .blue
         setUpViewModel()
         setUpTableView()
+        
+        viewModel.requestDataIfNeeded()
     }
     
     private func setUpViewModel() {
