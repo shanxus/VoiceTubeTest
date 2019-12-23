@@ -11,4 +11,9 @@ import Foundation
 class Video: Codable {
     var title: String
     var img: String
+    
+    init(title: String, img: String) {
+        self.title = title
+        self.img = img
+    }
 }
