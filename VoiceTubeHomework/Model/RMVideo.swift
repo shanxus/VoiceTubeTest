@@ -11,6 +11,10 @@ import RealmSwift
 
 class RMVideo: Object {
     
+    override class func primaryKey() -> String? {
+        return "title"
+    }
+    
     @objc dynamic var title = ""
     @objc dynamic var img = ""
     

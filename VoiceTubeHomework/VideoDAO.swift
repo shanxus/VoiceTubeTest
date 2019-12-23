@@ -9,28 +9,66 @@
 import Foundation
 import RealmSwift
 
+protocol VideoDAODelegate: class {
+    func didUpdate(videos: [Video])
+}
+
 class VideoDAO: NSObject {
     
-    var observationTokens: [NotificationToken] = []
+    weak var delegate: VideoDAODelegate?
     
+    private var observationTokens: [NotificationToken] = []
     
     func observe() {
         
         let realm = try! Realm()
         let results = realm.objects(RMVideo.self)
-        let token = results.observe { (changes: RealmCollectionChange<Results<RMVideo>>) in
+        let token = results.observe { [weak self] (changes: RealmCollectionChange<Results<RMVideo>>) in
             switch changes {
             case .initial(let results):
-                print("123")
-            case .update(let results, let deletion, let insertion, let modification):
-                print("22")
+                let videos = results.map { $0.generalize() }
+                self?.delegate?.didUpdate(videos: Array<Video>(videos))
+                
+            case .update(let results, _, _, _):
+                let videos = results.map { $0.generalize() }
+                self?.delegate?.didUpdate(videos: Array<Video>(videos))
+                
             case .error(let error):
-                print("33")
+                print("error: \(error)")
             }
         }
         
         observationTokens.append(token)
     }
     
+    func shouldRequestData() -> Bool {
+        let realm = try! Realm()
+        return realm.objects(RMVideo.self).first == nil
+    }
     
+    func transform(video: Video) -> RMVideo {
+        let rmVideo = RMVideo()
+        rmVideo.title = video.title
+        rmVideo.img = video.img
+        return rmVideo
+    }
+    
+    func save(videos: [Video]) {
+        
+        var rmVidoes: [RMVideo] = []
+        videos.forEach {
+            rmVidoes.append(transform(video: $0))
+        }
+        
+        let realm = try! Realm()
+        try! realm.write {
+            realm.add(rmVidoes, update: .all)
+        }
+    }
+    
+    func clear() {
+        observationTokens.forEach { (token: NotificationToken) in
+            token.invalidate()
+        }
+    }
 }

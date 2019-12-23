@@ -27,13 +27,12 @@ class InfiniteListViewController: UIViewController {
     
     private func setUpViewModel() {
         viewModel = InfiniteListViewModel()
+        viewModel.delegate = self
     }
     
     private func setUpTableView() {
         videoListTableView = UITableView()
         videoListTableView.register(VideoListTableViewCell.self, forCellReuseIdentifier: cellIdentifier)
-//        videoListTableView.bounces = false
-        
         videoListTableView.delegate = self
         videoListTableView.dataSource = self
         
@@ -60,8 +59,15 @@ extension InfiniteListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! VideoListTableViewCell
-        
+        cell.videoTitleLabel.text = viewModel.getTitle(at: indexPath.row)
+        cell.videoImage = viewModel.getImage(at: indexPath.row)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if indexPath.row == viewModel.numberOfRow - 10 {
+            viewModel.reachBottomAction()
+        }
     }
 }
 
@@ -73,5 +79,26 @@ extension InfiniteListViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+}
+
+// MARK: - Infinite List View Model Delegate
+extension InfiniteListViewController: InfiniteListViewModelDelegate {
+    func didUpdateData() {
+        videoListTableView.reloadData()
+    }
+    
+    func didAppendData() {
+        videoListTableView.reloadData()
+    }
+    
+    func didRetrieveVideoImage() {
+        videoListTableView.beginUpdates()
+        videoListTableView.reloadRows(at: videoListTableView.indexPathsForVisibleRows!, with: .fade)
+        videoListTableView.endUpdates()
     }
 }
