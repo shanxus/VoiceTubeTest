@@ -116,6 +116,15 @@
 			path = Countdown;
 			sourceTree = "<group>";
 		};
+		3DA447EA23B774DD00BCC004 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3D04A15C23B08F980048FFF4 /* VideoDAO.swift */,
+				3D04A15E23B0B9D40048FFF4 /* ImageRequester.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		3DA6047E23A91B1E00A6CEAA = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +148,7 @@
 		3DA6048923A91B1E00A6CEAA /* VoiceTubeHomework */ = {
 			isa = PBXGroup;
 			children = (
+				3DA447EA23B774DD00BCC004 /* Util */,
 				3DA604B623A91ECD00A6CEAA /* ViewModel */,
 				3DA604B523A91EBF00A6CEAA /* ViewController */,
 				3DA604B423A91EB900A6CEAA /* Model */,
@@ -147,8 +157,6 @@
 				3DA6049323A91B1E00A6CEAA /* Assets.xcassets */,
 				3DA6049523A91B1E00A6CEAA /* LaunchScreen.storyboard */,
 				3DA6049823A91B1E00A6CEAA /* Info.plist */,
-				3D04A15C23B08F980048FFF4 /* VideoDAO.swift */,
-				3D04A15E23B0B9D40048FFF4 /* ImageRequester.swift */,
 			);
 			path = VoiceTubeHomework;
 			sourceTree = "<group>";
