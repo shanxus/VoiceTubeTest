@@ -11,6 +11,8 @@
 		3D04A15B23B08EEE0048FFF4 /* RMVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04A15A23B08EEE0048FFF4 /* RMVideo.swift */; };
 		3D04A15D23B08F980048FFF4 /* VideoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04A15C23B08F980048FFF4 /* VideoDAO.swift */; };
 		3D04A15F23B0B9D40048FFF4 /* ImageRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04A15E23B0B9D40048FFF4 /* ImageRequester.swift */; };
+		3D304E0C23B70780004235E0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D304E0B23B70780004235E0 /* SettingsViewController.swift */; };
+		3D304E0F23B70825004235E0 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D304E0E23B70825004235E0 /* CountdownViewController.swift */; };
 		3DA6048B23A91B1E00A6CEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6048A23A91B1E00A6CEAA /* AppDelegate.swift */; };
 		3DA6048D23A91B1E00A6CEAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6048C23A91B1E00A6CEAA /* SceneDelegate.swift */; };
 		3DA6049423A91B1E00A6CEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6049323A91B1E00A6CEAA /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		3D04A15A23B08EEE0048FFF4 /* RMVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMVideo.swift; sourceTree = "<group>"; };
 		3D04A15C23B08F980048FFF4 /* VideoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDAO.swift; sourceTree = "<group>"; };
 		3D04A15E23B0B9D40048FFF4 /* ImageRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRequester.swift; sourceTree = "<group>"; };
+		3D304E0B23B70780004235E0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3D304E0E23B70825004235E0 /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
 		3DA6048723A91B1E00A6CEAA /* VoiceTubeHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceTubeHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA6048A23A91B1E00A6CEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DA6048C23A91B1E00A6CEAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D304E0723B7072A004235E0 /* InfiniteList */ = {
+			isa = PBXGroup;
+			children = (
+				3DA604AC23A91B4E00A6CEAA /* InfiniteListViewController.swift */,
+				3DA604AE23A91CD600A6CEAA /* VideoListTableViewCell.swift */,
+			);
+			path = InfiniteList;
+			sourceTree = "<group>";
+		};
+		3D304E0823B7073A004235E0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3D304E0B23B70780004235E0 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3D304E0D23B707F5004235E0 /* Countdown */ = {
+			isa = PBXGroup;
+			children = (
+				3D304E0E23B70825004235E0 /* CountdownViewController.swift */,
+			);
+			path = Countdown;
+			sourceTree = "<group>";
+		};
 		3DA6047E23A91B1E00A6CEAA = {
 			isa = PBXGroup;
 			children = (
@@ -136,8 +165,9 @@
 		3DA604B523A91EBF00A6CEAA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3DA604AC23A91B4E00A6CEAA /* InfiniteListViewController.swift */,
-				3DA604AE23A91CD600A6CEAA /* VideoListTableViewCell.swift */,
+				3D304E0723B7072A004235E0 /* InfiniteList */,
+				3D304E0823B7073A004235E0 /* Settings */,
+				3D304E0D23B707F5004235E0 /* Countdown */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -338,8 +368,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D04A15F23B0B9D40048FFF4 /* ImageRequester.swift in Sources */,
+				3D304E0F23B70825004235E0 /* CountdownViewController.swift in Sources */,
 				3DA604AD23A91B4E00A6CEAA /* InfiniteListViewController.swift in Sources */,
 				3DA604B323A91E8C00A6CEAA /* Video.swift in Sources */,
+				3D304E0C23B70780004235E0 /* SettingsViewController.swift in Sources */,
 				3D04A15B23B08EEE0048FFF4 /* RMVideo.swift in Sources */,
 				3DA604B123A91DAB00A6CEAA /* InfiniteListViewModel.swift in Sources */,
 				3D04A15D23B08F980048FFF4 /* VideoDAO.swift in Sources */,
