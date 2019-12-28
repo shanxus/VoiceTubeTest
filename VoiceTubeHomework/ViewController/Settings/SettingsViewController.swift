@@ -44,6 +44,7 @@ class SettingsViewController: UIViewController {
 
 }
 
+// MARK: - UITableView Data Source
 extension SettingsViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -70,10 +71,14 @@ extension SettingsViewController: UITableViewDataSource {
     }
 }
 
+// MARK: - UITableView Delegate
 extension SettingsViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }
 
+// MARK: - Settings TableViewCell Delegate
 extension SettingsViewController: SettingsTableViewCellDelegate {
     func didTriggerSwitchAction(with tag: Int, isOn: Bool) {
         viewModel.handleSwitchAction(with: tag, isOn: isOn)

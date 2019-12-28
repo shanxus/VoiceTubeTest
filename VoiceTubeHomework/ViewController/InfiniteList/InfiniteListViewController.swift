@@ -43,8 +43,6 @@ class InfiniteListViewController: UIViewController {
         videoListTableView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         videoListTableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
     }
-    
-
 }
 
 // MARK: UITableView Data Source

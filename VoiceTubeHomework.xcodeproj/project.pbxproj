@@ -15,6 +15,7 @@
 		3D304E0F23B70825004235E0 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D304E0E23B70825004235E0 /* CountdownViewController.swift */; };
 		3D304E1123B70976004235E0 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D304E1023B70976004235E0 /* SettingsViewModel.swift */; };
 		3D304E1323B70A64004235E0 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D304E1223B70A64004235E0 /* SettingsTableViewCell.swift */; };
+		3DA447E923B7286100BCC004 /* CountdownManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA447E823B7286100BCC004 /* CountdownManageView.swift */; };
 		3DA6048B23A91B1E00A6CEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6048A23A91B1E00A6CEAA /* AppDelegate.swift */; };
 		3DA6048D23A91B1E00A6CEAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6048C23A91B1E00A6CEAA /* SceneDelegate.swift */; };
 		3DA6049423A91B1E00A6CEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6049323A91B1E00A6CEAA /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		3D304E0E23B70825004235E0 /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
 		3D304E1023B70976004235E0 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		3D304E1223B70A64004235E0 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		3DA447E823B7286100BCC004 /* CountdownManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownManageView.swift; sourceTree = "<group>"; };
 		3DA6048723A91B1E00A6CEAA /* VoiceTubeHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceTubeHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA6048A23A91B1E00A6CEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DA6048C23A91B1E00A6CEAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				3D304E0E23B70825004235E0 /* CountdownViewController.swift */,
+				3DA447E823B7286100BCC004 /* CountdownManageView.swift */,
 			);
 			path = Countdown;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				3D304E0C23B70780004235E0 /* SettingsViewController.swift in Sources */,
 				3D304E1323B70A64004235E0 /* SettingsTableViewCell.swift in Sources */,
 				3D04A15B23B08EEE0048FFF4 /* RMVideo.swift in Sources */,
+				3DA447E923B7286100BCC004 /* CountdownManageView.swift in Sources */,
 				3DA604B123A91DAB00A6CEAA /* InfiniteListViewModel.swift in Sources */,
 				3D04A15D23B08F980048FFF4 /* VideoDAO.swift in Sources */,
 				3DA604AF23A91CD600A6CEAA /* VideoListTableViewCell.swift in Sources */,

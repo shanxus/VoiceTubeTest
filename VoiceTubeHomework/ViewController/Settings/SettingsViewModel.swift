@@ -31,8 +31,6 @@ class SettingsViewModel: NSObject {
         let userDefaultIdentifier = sortedCases[tag].getUserDefaultIdentifier()
         UserDefaults.standard.set(isOn, forKey: userDefaultIdentifier)
     }
-    
-    
 }
 
 enum Settings: Int, CaseIterable {
